@@ -1,7 +1,7 @@
 galaxy_info:
   author: Henryk Konsek
-  description: your description
-  company: your company (optional)
+  description: Ensures that firewall is installed and running, then ensures that given port on firewall is open.
+  company: Red Hat
 
   license: Apache 2.0
 
