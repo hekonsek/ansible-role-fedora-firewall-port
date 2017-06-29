@@ -1,0 +1,18 @@
+galaxy_info:
+  author: Henryk Konsek
+  description: your description
+  company: your company (optional)
+
+  license: Apache 2.0
+
+  min_ansible_version: 1.2
+
+  platforms:
+  - name: Fedora
+    versions:
+    - 25
+
+  galaxy_tags: ["fedora", "firewall"]
+
+  dependencies:
+    - { role: hekonsek.fedora-firewall,0.5 }

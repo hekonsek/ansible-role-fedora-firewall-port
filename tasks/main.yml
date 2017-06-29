@@ -1,0 +1,5 @@
+- name: Open port {{ targetPort }} to outside world
+  firewalld:
+    port: "{{ targetPort }}/tcp"
+    permanent: true
+    state: enabled
